@@ -1,0 +1,39 @@
+
+.jumbotron {
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
+    background-color: #e9ecef; 
+}
+
+.profile-img {
+    width: 200px; 
+    height: 100%; 
+    object-fit: cover; 
+    box-shadow: 11px 10px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#portfolio {
+    background-color: #e9ecef;
+}
+
+.card {
+    transition: transform 0,5s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px); }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.fa-2x {
+    font-size: 6rem;
+    margin: 10px 20px;
+}
